@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Scenario 1 — read the time surface and learn to read it correctly.
 #
-# Needs: the `goat` CLI and a goatnet you can reach. GOAT_CONTEXT selects it;
+# Needs: the `goat` CLI and any goatnet you have access to. GOAT_CONTEXT selects it;
 # unset, the CLI's current context is used. Everything else in this repo runs
 # with neither.
 set -uo pipefail

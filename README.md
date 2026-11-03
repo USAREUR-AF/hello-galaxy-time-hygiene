@@ -4,7 +4,7 @@
 with *each other* about time — not that each of them is right about UTC.**
 
 This is a teaching walkthrough with six runnable scenarios. Five of them need
-nothing but Python and openssl; one reads your own goatnet. It answers one question
+nothing but Python and openssl; one reads a live goatnet. It answers one question
 completely:
 
 > When satellite navigation is jammed and the link out is cut — the *normal*
@@ -38,7 +38,7 @@ The short version:
 | **Not built** | the peer mutual-synchronisation engine itself, two-axis health as two fields on the wire, the per-message time-quality envelope, and anchor anti-spoofing |
 
 Scenarios 4 and 5 model the unbuilt engine and say so in their first paragraph.
-Everything else runs against real signatures, real openssl, or your own goatnet.
+Everything else runs against real signatures, real openssl, or a live goatnet.
 
 ---
 
@@ -58,14 +58,16 @@ No install step. `cryptography` is used for Ed25519 when it happens to be
 present; otherwise a bundled pure-Python implementation
 (`lib/ed25519_ref.py`) takes over and the same tests pass either way.
 
-Scenario 1 is the only step that needs a goatnet: the `goat` CLI and a
-goatnet you can reach. If you do not have one, goatcore's
-[goatlite quickstart](https://github.com/usareur-af/goatcore/blob/main/docs/tutorials/00-goatlite.md)
-stands one up on a single machine. Without a goatnet, scenario 1 prints an
-annotated example of its output instead.
+Scenario 1 is the only step that needs a goatnet: the `goat` CLI and any
+goatnet you have access to. That can be
+EFDI, the shared sandbox goatnet that partners are onboarded to (if you are onboarded to it); <!-- oss-allow: operator-approved public example goatnet -->
+a goatlite you stand up yourself on a single machine (goatcore's
+[goatlite quickstart](https://github.com/usareur-af/goatcore/blob/main/docs/tutorials/00-goatlite.md)); or another goatnet
+you have access to. Without a goatnet, scenario 1 prints an annotated example
+of its output instead.
 
 ```bash
-GOAT_CONTEXT=<your-goatnet> bin/hello-time 1   # runs: goat --context <your-goatnet> health --domain time
+GOAT_CONTEXT=<goatnet-context> bin/hello-time 1   # runs: goat --context <goatnet-context> health --domain time
 ```
 
 ---
@@ -74,7 +76,7 @@ GOAT_CONTEXT=<your-goatnet> bin/hello-time 1   # runs: goat --context <your-goat
 
 | | scenario | needs | what it settles |
 |---|---|---|---|
-| 1 | [two watches](scenarios/01-two-watches/) | `goat` + your goatnet | how to read the time surface, column by column — and what it is not telling you yet |
+| 1 | [two watches](scenarios/01-two-watches/) | `goat` + a goatnet | how to read the time surface, column by column — and what it is not telling you yet |
 | 2 | [absence is not health](scenarios/02-absence-is-not-health/) | nothing | two hosts claim to be healthy; neither shows green. Why `idle` and `unmetered` are different facts |
 | 3 | [verify an attestation](scenarios/03-verify-an-attestation/) | nothing | check a **production-signed** verdict with a readable reference, then break it five ways |
 | 4 | [the liar](scenarios/04-the-liar/) | nothing | one attested liar captures the fleet under a plain mean and gets nowhere under a trimmed one |

@@ -1,11 +1,12 @@
 # 1 — The two watches
 
 **Run:** `./run.sh` (or `bin/hello-time 1`)
-**Needs:** the `goat` CLI and a goatnet you can reach. `GOAT_CONTEXT` selects
-which; unset, the CLI's current context is used. This is the **only** scenario
-in the repo that needs a goatnet — the other five run offline. To stand up a
-one-machine goatnet, see goatcore's
-[goatlite quickstart](https://github.com/usareur-af/goatcore/blob/main/docs/tutorials/00-goatlite.md).
+**Needs:** the `goat` CLI and any goatnet you have access to. `GOAT_CONTEXT`
+selects which; unset, the CLI's current context is used. This is the **only**
+scenario in the repo that needs a goatnet — the other five run offline. The
+goatnet can be EFDI if you are onboarded to it, a one-machine goatlite you stand up <!-- oss-allow: operator-approved public example goatnet -->
+yourself (goatcore's [goatlite quickstart](https://github.com/usareur-af/goatcore/blob/main/docs/tutorials/00-goatlite.md)),
+or another goatnet you have access to.
 
 Reads the goatnet's time surface and teaches you to read it correctly: what each
 column means, why `idle` is not a mild green, and what the table is not telling
