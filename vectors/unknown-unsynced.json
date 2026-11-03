@@ -1,0 +1,28 @@
+{
+  "host_id": "edge-node-09",
+  "ntp_class": 3,
+  "ntp_class_str": "unknown",
+  "selected_source": "none",
+  "stratum": 16,
+  "ref_id": "",
+  "system_time_offset_ns": 0,
+  "rms_offset_ns": 0,
+  "freq_ppm": 0,
+  "leap_status": 0,
+  "last_updated_utc": "2026-08-19T22:42:33.127401Z",
+  "drift_model": {
+    "ppm_mean": 0,
+    "ppm_stddev": 0,
+    "last_sync_utc": "0001-01-01T00:00:00Z",
+    "seconds_since_sync": 0,
+    "expected_skew_usec": 0,
+    "skew_uncertainty_usec": 0,
+    "sample_count": 0,
+    "source_of_last_sync": ""
+  },
+  "valid_until": "2026-08-19T22:47:33.127401Z",
+  "attested": true,
+  "attestation_alg": "ntp-attest-v1",
+  "attestation_pubkey": "vOGhbqjLMhLBd3j/5IbXkOOaoZHjUscqu//xFeRENPk=",
+  "signature": "ej/R48Zhe+1GcFAnXI4W9FGZyZBtehHZ4rQXJA8Z5MapSTYLMoyd8MYZvyzYyaNHZTrIuUlxsPjgKEL3IfQmBA=="
+}

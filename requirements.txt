@@ -1,0 +1,4 @@
+# OPTIONAL. Everything in this repo runs without it — lib/ed25519_ref.py is a
+# bundled pure-Python Ed25519 fallback and the same tests pass on both backends.
+# Install it if you want the fast, audited primitive.
+cryptography>=42

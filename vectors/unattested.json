@@ -1,0 +1,25 @@
+{
+  "host_id": "edge-node-17",
+  "ntp_class": 0,
+  "ntp_class_str": "healthy",
+  "selected_source": "wan_nts",
+  "stratum": 3,
+  "ref_id": "C0A80105",
+  "system_time_offset_ns": 0,
+  "rms_offset_ns": 611000,
+  "freq_ppm": 0,
+  "leap_status": 0,
+  "last_updated_utc": "2026-08-19T22:43:03.127401Z",
+  "drift_model": {
+    "ppm_mean": 0,
+    "ppm_stddev": 0,
+    "last_sync_utc": "0001-01-01T00:00:00Z",
+    "seconds_since_sync": 0,
+    "expected_skew_usec": 0,
+    "skew_uncertainty_usec": 0,
+    "sample_count": 0,
+    "source_of_last_sync": ""
+  },
+  "valid_until": "2026-08-19T22:48:03.127401Z",
+  "attested": false
+}

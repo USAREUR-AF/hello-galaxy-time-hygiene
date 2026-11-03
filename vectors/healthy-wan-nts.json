@@ -1,0 +1,28 @@
+{
+  "host_id": "mgmt-zagros-01",
+  "ntp_class": 0,
+  "ntp_class_str": "healthy",
+  "selected_source": "wan_nts",
+  "stratum": 2,
+  "ref_id": "CB007105",
+  "system_time_offset_ns": 0,
+  "rms_offset_ns": 452000,
+  "freq_ppm": 0,
+  "leap_status": 0,
+  "last_updated_utc": "2026-08-19T22:41:33.127401Z",
+  "drift_model": {
+    "ppm_mean": 0,
+    "ppm_stddev": 0,
+    "last_sync_utc": "0001-01-01T00:00:00Z",
+    "seconds_since_sync": 0,
+    "expected_skew_usec": 0,
+    "skew_uncertainty_usec": 0,
+    "sample_count": 0,
+    "source_of_last_sync": ""
+  },
+  "valid_until": "2026-08-19T22:46:33.127401Z",
+  "attested": true,
+  "attestation_alg": "ntp-attest-v1",
+  "attestation_pubkey": "8IreFY88+iEWhZocVeW06Fj/rWSZz1fls5lMfsKRhCo=",
+  "signature": "eNkA132ONM7ALy71IAIVtBqgxVojPC+CCHZqZhC6RyXulM77/Cj7rmG/d9q5JPfQxhviY00Yh8YUJAImyQBwCQ=="
+}
