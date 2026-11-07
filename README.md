@@ -174,5 +174,5 @@ for the others.
 
 ## Licence
 
-Apache License 2.0 ([LICENSE](LICENSE)). See also [NOTICE](NOTICE),
+`hello-galaxy-time-hygiene` was written by U.S. Federal government employees. In the U.S. it is not subject to copyright and is in the public domain; in countries where copyright is recognized, it is released under the [Apache License 2.0](LICENSE). See [INTENT.md](INTENT.md). See also [NOTICE](NOTICE),
 [CONTRIBUTING.md](CONTRIBUTING.md) and [SECURITY.md](SECURITY.md).
