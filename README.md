@@ -60,7 +60,6 @@ present; otherwise a bundled pure-Python implementation
 
 Scenario 1 is the only step that needs a goatnet: the `goat` CLI and any
 goatnet you have access to. That can be
-EFDI, the shared sandbox goatnet that partners are onboarded to (if you are onboarded to it); <!-- oss-allow: operator-approved public example goatnet -->
 a goatlite you stand up yourself on a single machine (goatcore's
 [goatlite quickstart](https://github.com/usareur-af/goatcore/blob/main/docs/tutorials/00-goatlite.md)); or another goatnet
 you have access to. Without a goatnet, scenario 1 prints an annotated example

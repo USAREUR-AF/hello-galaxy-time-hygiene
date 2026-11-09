@@ -4,7 +4,7 @@
 **Needs:** the `goat` CLI and any goatnet you have access to. `GOAT_CONTEXT`
 selects which; unset, the CLI's current context is used. This is the **only**
 scenario in the repo that needs a goatnet — the other five run offline. The
-goatnet can be EFDI if you are onboarded to it, a one-machine goatlite you stand up <!-- oss-allow: operator-approved public example goatnet -->
+goatnet can be a one-machine goatlite you stand up
 yourself (goatcore's [goatlite quickstart](https://github.com/usareur-af/goatcore/blob/main/docs/tutorials/00-goatlite.md)),
 or another goatnet you have access to.
 
