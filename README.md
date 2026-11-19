@@ -1,5 +1,10 @@
 # Hello Galaxy — time hygiene
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/figures/free-run-together-dark.svg">
+  <img src="docs/figures/free-run-together-light.svg" width="760" alt="Scenario 5, eight nodes for two hours: after the time anchor is cut at 30 minutes, the worst disagreement between two nodes stays flat when nodes steer toward each other (the designed peer sync, modeled here) and grows without limit when each node free-runs on its own crystal (per-node holdover, the posture today).">
+</picture>
+
 **On a fabric with no central anything, what you need is that participants agree
 with *each other* about time — not that each of them is right about UTC.**
 
